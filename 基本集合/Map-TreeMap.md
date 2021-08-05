@@ -1,17 +1,13 @@
-Map-TreeMap
+## Map之TreeMap
 
-
-
-3.TreeMap的要点
+### TreeMap的要点
 
 * 以红黑树的数据结构来保存元素，所以TreeMap中的元素是排好序的；
 * TreeMap的key遍历是有序的，而且很高效；
 * key的排序可以使用Comparable接口或Comparator接口来排序；
 * TreeMap中的key是按key的值升序排列的；
 
-
-
-3.TreeMap实战
+### TreeMap实战
 
 实战的代码分为两个部分，一个是基本操作；一个是创建一个逆序的TreeMap。
 
@@ -79,13 +75,13 @@ public class DoTreeMap {
 
 
 
-3.TreeMap实现原理
+### TreeMap实现原理
+
+// todo: 添加
 
 
 
-
-
-3.小结
+### 小结
 
 
 

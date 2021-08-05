@@ -1,8 +1,8 @@
-HashSet
+## Set之HashSet
 
 
 
-3.要点
+### HashSet要点
 
 * HashSet的底层是使用HashMap来实现的，HashSet的值保存到HashMap的key中，而value都是同一个Object对象，该对象会在构造HashSet对象时创建；
 * HashSet 不维护任何顺序，元素将以随机顺序返回；
@@ -13,15 +13,15 @@ HashSet
 
 
 
-3.实战
+### 实战
+
+// todo：
 
 
 
+### 实现原理要点
 
-
-3.实现原理要点
-
-4.构造函数
+#### 构造函数
 
 当我们调用HashSet() 时，其实是创建了一个HashMap()对象。也就是说HashSet是基于HashMap实现的。
 
@@ -50,9 +50,7 @@ public class HashSet<E>
 
 
 
-
-
-3.小结
+### 小结
 
 
 

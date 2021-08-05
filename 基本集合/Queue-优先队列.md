@@ -1,6 +1,6 @@
-2.优先队列：PriorityQueue
+## 优先队列：PriorityQueue
 
-3.PriorityQueue要点
+### PriorityQueue要点
 
 * PriorityQueue是一个队列，其中的元素具有优先级；
 
@@ -12,11 +12,9 @@
 * 注意：元素的**迭代遍历**是无序的，不能依赖元素的顺序来使用该队列；但若每次都获取并删除队列的头节点，则是有序的，这一点在有些应用场景中非常有用；
 * PriorityQueue的空间增长速度是按50%*oldCapicity的量来增加的，其实现逻辑是，新申请一块大的内存 ，然后把原有数据复制过去；
 
+### 实战
 
-
-3.实战
-
-4.基本使用
+#### 基本使用
 
 创建一个元素为字符串的优先队列，PriorityQueue会按照字符的ASCII码来进行排序。当我们每次取出优先队列的头节点时，就是有序的。示例代码如下：
 
@@ -66,7 +64,7 @@ helloworld, name1, name11, name22,
 
 可以看到，队列中的元素是有序的，是按字母的ASCII码顺序进行排列的。
 
-4.自定义优先级顺序
+#### 自定义优先级顺序
 
 ```java
 import java.util.Comparator;
@@ -129,8 +127,6 @@ name1, name11, name222, helloworld,
 4.添加元素
 
 4.元素的删除
-
-4.
 
 
 

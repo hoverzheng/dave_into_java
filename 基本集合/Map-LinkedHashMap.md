@@ -1,8 +1,8 @@
-LinkedHashMap的使用
+## Map之LinkedHashMap
 
 
 
-3.基本使用
+### 要点
 
 * 会维护一个节点插入的顺序，保证遍历时按插入顺序进行遍历；
 * 注意：当一个key-value已经存在，再次插入key时，该key的遍历顺序不受影响；
@@ -10,15 +10,15 @@ LinkedHashMap的使用
 
 
 
-3.实战
+### 实战
 
-4.基本使用
-
-
+#### 基本使用
 
 
 
-4.开启accessOrder选项
+
+
+#### 开启accessOrder选项
 
 ​	在创建LinkedHashMap时，当开启accessOrder选项，LinkedHashMap中的元素会按LRU（最少最近访问）访问来进行组织。也就是说，会把get（访问）过的元素添加到链表的尾部。这样，就可以保证最少访问过的元素在链表的头部。
 
@@ -61,7 +61,7 @@ bb1: 2, dd1: 4, cc1: 3, aa1: 1,
 
 
 
-4.设计一个LRU系统
+#### 设计一个LRU系统
 
 可以通过重载LinkedHashMap的removeEldestEntry函数来实现。
 
@@ -95,9 +95,9 @@ class LRUCacheDemo extends LinkedHashMap<String, Object>{
 
 
 
-3.实现原理
+### 实现原理
 
 
 
-3.小结
+### 小结
 
